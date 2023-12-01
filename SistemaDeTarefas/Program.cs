@@ -23,8 +23,9 @@ namespace SistemaDeTarefas
                  options => options.UseSqlServer(builder.Configuration.GetConnectionString("DataBase"))
                  );
 
-            // Repositorios Injeção de dependencias
+            // Repositórios Injeção de dependencias
             builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            builder.Services.AddScoped<ITarefaRepository, TarefaRepository>();
 
             var app = builder.Build();
 

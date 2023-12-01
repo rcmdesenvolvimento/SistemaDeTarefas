@@ -21,8 +21,3 @@ namespace SistemaDeTarefas.Data
         }
     }
 }
-
-
-// Migrations
-// Add-Migration InitialDb -Context SistemaTarefasDbContext
-// Update-Database -Context SistemaTarefasDbContext

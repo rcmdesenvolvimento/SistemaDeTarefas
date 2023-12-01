@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SistemaDeTarefas.Models;
 using SistemaDeTarefas.Repositories.Interfaces;
 
@@ -52,6 +51,3 @@ public class UsuarioController : ControllerBase
         return Ok(usuario);
     }
 }
-
-
-// https://www.youtube.com/watch?v=2TxePNK0kc8&t=114s - aula 44:52
